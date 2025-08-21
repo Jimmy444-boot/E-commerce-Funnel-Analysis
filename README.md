@@ -58,29 +58,29 @@ The dataset simulates user interactions on an e-commerce platform to analyze fun
 
 6. Timestamps
 
-  * Generated using Faker’s date_time_this_month() to simulate realistic user activity over one month.
+   * Generated using Faker’s date_time_this_month() to simulate realistic user activity over one month.
 
 7. Event IDs
 
-  * Incremental unique ID for each row to maintain traceability.
+   * Incremental unique ID for each row to maintain traceability.
 
 4️⃣ Implementation Notes
 
-* Language: Python 3.x
+1. Language: Python 3.x
 
-* Libraries: pandas, faker, random
+2. Libraries: pandas, faker, random
 
-* Output: CSV file or Pandas DataFrame, easily loaded into SQL or BI tools.
+3. Output: CSV file or Pandas DataFrame, easily loaded into SQL or BI tools.
 
-* Randomness: Can set a seed for reproducibility.
+4. Randomness: Can set a seed for reproducibility.
 
 5️⃣ Use Cases
 
-* Funnel conversion analysis (view → add → checkout → purchase).
+1. Funnel conversion analysis (view → add → checkout → purchase).
 
-* Time-to-purchase analysis by product, category, device, or location.
+2. Time-to-purchase analysis by product, category, device, or location.
 
-* Segmentation analysis for marketing or UX improvements.
+3. Segmentation analysis for marketing or UX improvements.
 
-* Feeding into dashboards in Streamlit, Tableau, or Looker Studio.
+4. Feeding into dashboards in Streamlit, Tableau, or Looker Studio.
 
