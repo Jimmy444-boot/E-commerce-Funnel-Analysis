@@ -7,7 +7,7 @@ Visit → Product View → Add to Cart → Checkout → Purchase
 #### 📌 Objective 
 Identify where users drop off and recommend strategies to increase conversions.
 
-#### This data was simulated
+#### ⛔️ This data was simulated
 1️⃣ Purpose
 The dataset simulates user interactions on an e-commerce platform to analyze funnel conversion, user behavior, and product performance. It is designed for SQL analysis, dashboarding, and data visualization.
 
