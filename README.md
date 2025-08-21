@@ -22,7 +22,7 @@ The dataset includes details such as user sessions, product categories, prices, 
 
     * SQL
 
-    * Data Visualization
+    * Data Visualization (google looker studio(
 
 #### 🤌 Business Problem
 E-commerce businesses often lose users at different funnel stages:
