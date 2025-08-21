@@ -1,5 +1,29 @@
 # 📊 E-commerce-Funnel-Analysis
 
+##Project Description
+
+This project simulates user interactions on an e-commerce platform to analyze customer behavior, conversion rates, and product performance. Using a synthetic dataset generated with Python and the Faker library, it captures user events such as product views, adding items to cart, checkouts, and purchases.
+
+The dataset includes details such as user sessions, product categories, prices, devices, and locations, enabling segmentation, funnel analysis, and trend visualization. This project demonstrates skills in data generation, data cleaning, SQL analysis, and interactive dashboarding with Streamlit.
+
+#### Key Highlights:
+
+1. Created a realistic, reproducible dataset for funnel analysis.
+
+2. Explored user behavior and drop-offs across different funnel stages.
+
+3. Built an interactive dashboard for visualizing insights by product, category, device, and location.
+
+4. Demonstrated end-to-end data analytics workflow: data generation → analysis → visualization → insights.
+
+#### Technologies Used:
+
+    * Python (Faker, Pandas)
+
+    * SQL
+
+    * Data Visualization
+
 #### 🤌 Business Problem
 E-commerce businesses often lose users at different funnel stages:
 Visit → Product View → Add to Cart → Checkout → Purchase
