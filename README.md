@@ -6,7 +6,7 @@ This project simulates user interactions on an e-commerce platform to analyze cu
 
 The dataset includes details such as user sessions, product categories, prices, devices, and locations, enabling segmentation, funnel analysis, and trend visualization. This project demonstrates skills in data generation, data cleaning, SQL analysis, and interactive dashboarding with Streamlit.
 
-#### Key Highlights:
+#### 👉 Key Highlights:
 
 1. Created a realistic, reproducible dataset for funnel analysis.
 
@@ -16,7 +16,7 @@ The dataset includes details such as user sessions, product categories, prices, 
 
 4. Demonstrated end-to-end data analytics workflow: data generation → analysis → visualization → insights.
 
-#### Technologies Used:
+#### 🖥️ Technologies Used:
 
     * Python (Faker, Pandas)
 
