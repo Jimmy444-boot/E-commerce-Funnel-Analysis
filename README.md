@@ -7,7 +7,7 @@ Visit → Product View → Add to Cart → Checkout → Purchase
 ## Objective 
 Identify where users drop off and recommend strategies to increase conversions.
 
-# 📂 Dataset Schema: ecommerce_events
+## 📂 Dataset Schema: ecommerce_events
 
 | Column Name  | Type      | Description                                                         |
 | ------------ | --------- | ------------------------------------------------------------------- |
