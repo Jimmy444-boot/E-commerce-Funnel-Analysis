@@ -1,6 +1,6 @@
 # 📊 E-commerce-Funnel-Analysis
 
-##Project Description
+## Project Description
 
 This project simulates user interactions on an e-commerce platform to analyze customer behavior, conversion rates, and product performance. Using a synthetic dataset generated with Python and the Faker library, it captures user events such as product views, adding items to cart, checkouts, and purchases.
 
