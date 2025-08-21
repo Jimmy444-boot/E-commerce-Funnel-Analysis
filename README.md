@@ -28,41 +28,41 @@ The dataset simulates user interactions on an e-commerce platform to analyze fun
 
 3️⃣ Data Generation Methodology
 
-Users and Events
+1. Users & Events
 
-50 users (user_id 1001–1050) are simulated.
+   * 50 users (user_id 1001–1050) with 3–10 events each to simulate different engagement levels.
 
-Each user has 3–10 events generated randomly to mimic variable engagement.
+2. Sessions
 
-Sessions
+   * Randomly assigned 1–5 sessions per user using the pattern: S<user_id><random_number>.
 
-Session IDs combine user ID + random number (1–5 sessions per user).
+   * Supports session-based analysis.
 
-Allows session-based analytics (e.g., session conversion rate).
+3. Event Types
 
-Event Types
+   * Randomly assigned: "view", "add_to_cart", "checkout", "purchase".
 
-Randomly selected from ["view", "add_to_cart", "checkout", "purchase"].
+   * Models natural funnel drop-offs.
 
-Simulates natural funnel drop-offs — not all users complete every stage.
+4. Products
 
-Products
+   * product_id: random integer in a realistic range.
 
-product_id: random integer in a realistic range.
+   * category: sampled from a predefined list.
 
-category: sampled from a predefined list.
+   * price: uniformly random between $10–$500.
 
-price: continuous uniform distribution between 10–500 USD.
+5. User Attributes
 
-User Attributes
+   * device and location sampled from predefined lists for segmentation.
 
-device and location sampled from predefined lists to allow segmentation.
+6. Timestamps
 
-Timestamps
+  * Generated using Faker’s date_time_this_month() to simulate realistic user activity over one month.
 
-Generated using Faker’s date_time_this_month() to simulate events within a single month.
+7. Event IDs
 
-Enables time-based analysis and trend tracking.
+  * Incremental unique ID for each row to maintain traceability.
 
 4️⃣ Implementation Notes
 
