@@ -1,10 +1,10 @@
 # 📊 E-commerce-Funnel-Analysis
 
-#### Business Problem
+#### 🤌 Business Problem
 E-commerce businesses often lose users at different funnel stages:
 Visit → Product View → Add to Cart → Checkout → Purchase
 
-#### Objective 
+#### 📌 Objective 
 Identify where users drop off and recommend strategies to increase conversions.
 
 #### 📂 Dataset Schema: ecommerce_events
